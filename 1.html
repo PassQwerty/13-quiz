@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Опрос</title>
+</head>
+<body>
+    <h1 class="text">Анкета про игрока на PC</h2>
+    <div id="mainContainer">
+        <div id="container">
+            <h2 class="quiz-question">Вопрос 1: В какую игру вы играли?</h2>
+            <div id="choice">
+                <input type="checkbox" id="GTA" name="game" value="coding">
+                <label for="coding">GTA 5</label>
+            </div>
+            <div id="choice">
+                <input type="checkbox" id="Roblox" name="game" value="coding">
+                <label for="coding">Roblox</label>
+            </div>
+            <div id="choice">
+                <input type="checkbox" id="Stalker" name="game" value="coding">
+                <label for="coding">Stalker</label>
+            </div>
+            <div id="choice">
+                <input type="checkbox" id="Assasin" name="game" value="coding">
+                <label for="coding">Assasin's Creed Black Flag</label>
+            </div>
+            <div id="choice">
+                <input type="checkbox" id="Assasin" name="result-game" value="coding">
+                <label for="coding">Играл во все игры</label>
+            </div>
+        </div>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/705/705890.png" id="imgS" alt="">
+        </div>
+    </div>
+    <div id="mainContainer">
+        <div id="container">
+            <h2 class="quiz-question">Вопрос 2: Майнкрафт это..</h2>
+            <div id="choice">
+                <input type="radio" name="choiceMain" value="sandbox">
+                <label for="coding">Песочница</label>
+            </div>
+            <div id="choice">
+                <input type="radio" name="choiceMain" value="shooter">
+                <label for="coding">Шутер</label>
+            </div>
+        </div>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/197/197560.png" id="imgS" alt="">
+        </div>
+    </div>
+    <div id="mainContainer">
+        <div id="container">
+            <h2 class="quiz-question">Вопрос 3: Какая из перечисленных игр самая сложная и её можно пройти</h2>
+            <div id="choice">
+                <input type="radio" name="game2" value="DarkSouls">
+                <label for="coding">Dark Souls</label>
+            </div>
+            <div id="choice">
+                <input type="radio" name="game2" value="Cuphead">
+                <label for="coding">Cuphead</label>
+            </div>
+            <div id="choice">
+                <input type="radio" name="game2" value="FlappyBird">
+                <label for="coding">Flappy Bird</label>
+            </div>
+            <div id="choice">
+                <input type="radio" name="game2" value="Foddy">
+                <label for="coding">Getting Over It with Bennett Foddy</label>
+            </div>
+        </div>
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/2403/2403711.png" id="imgS" alt="">
+        </div>
+    </div>
+
+    <h1 id="resultText"></h1>
+
+    <button id="result">Проверить</button>
+
+    <script src="main.js"></script>
+</body>
+</html>
